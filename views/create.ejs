@@ -1,0 +1,20 @@
+<form class="space-y-2 md:space-y-4 w-full">
+    <!-- div username -->
+    <div class="flex w-full flex-col">
+        <label for="barang" class="block text-gray-700 text-sm font-semibold mb-2">Nama Barang</label>
+        <input type="text" name="barang" id="barang" class="bg-white border border-white active: border-b-2  text-slate-950 sm:text-sm rounded-lg w-full p-2.5 flex-shrink flex-grow flex-auto mb-4" placeholder="Nama Barang">
+    </div>
+    <!-- div password -->
+    <div class="flex w-full flex-col">
+        <label for="harga" class="block text-gray-700 text-sm font-semibold mb-2 mt-2">Harga</label>
+        <div class="relative w-full">
+            <div class="absolute inset-y-0 right-0 flex items-center px-2">
+                <label class="bg-white hover:bg-slate-300 rounded-2xl px-2 py-1 text-sm text-gray-600 font-mono cursor-pointer " for="toggle"><i id="js-harga-label" class="fa-regular fa-eye"></i></label>
+            </div>
+            <input type="harga" name="harga" id="harga" class="bg-white border border-white active: border-b-2  text-slate-950 sm:text-sm rounded-lg w-full p-2.5 flex-shrink flex-grow flex-auto js-password" placeholder="Harga Barang">
+        </div>
+    </div>
+    <a href="">
+        <button id="tombol" type="submit" class="bg-[#4B6D5F] hover:bg-[#60947e] md:h-10 text-center items-center md:px-8 md:py-1 md:text-lg sm:text-xs sm:h-6 text-white rounded-xl leading-tight mt-2 mb-2 w-full">Login</button>
+    </a>
+</form>
